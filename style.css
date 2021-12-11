@@ -1,0 +1,47 @@
+body {
+    background-color: chartreuse;
+}
+
+ #score {
+    font-size:50;
+    margin-left:-1300px;
+ }
+
+ #timer {
+    font-size:50;
+    margin-right:200px;
+    float:right;
+ }
+
+ #Sketch_to_be_drawn {
+font-size: 25;
+color: red;
+ }
+
+ h1 {
+     background-color: khaki;
+     color: blue;
+     margin-left: 100px;
+ }
+button{
+    margin-left: 175px;
+    float: right;
+ 
+}
+
+canvas 
+  {
+    border:5px solid white;
+    border-radius:20px;
+    margin-top:300px;
+    box-shadow:5px 5px 5px grey;
+    box-shadow: 1px 1px 38px #ffffff;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes example {
+
+  from {box-shadow: 1px 1px 38px grey;}
+  to {box-shadow: 1px 1px 38px white;}
+}
